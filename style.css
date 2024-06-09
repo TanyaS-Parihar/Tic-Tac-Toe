@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+h1 {
+  background-color: pink;
+  padding-bottom: 3px;
+  text-decoration: underline;
+}
+body {
+  background-color: #75b9be;
+  text-align: center;
+  position: relative;
+}
+.start {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vh;
+}
+.container {
+  height: 75vh; /*75 percent of visible height*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.game {
+  background-color: black;
+  height: 62vmin; /*62 percent of viewports smaller dimension*/
+  width: 62vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 2px;
+  border-radius: 0.8rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.463);
+}
+
+.Box {
+  background-color: #d0d6b5;
+  height: 17vmin;
+  width: 17vmin;
+  border-radius: 0.4rem;
+  color: black;
+  font-size: 14vmin;
+}
+
+.player2 {
+  color: maroon;
+}
+.Box:hover {
+  background-color: rgb(110, 110, 98);
+}
+.reset {
+  height: 10vmin;
+  width: 25vmin;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  font-style: normal;
+  border-radius: 0.4rem;
+}
+.reset:hover {
+  background-color: rgb(110, 110, 98);
+}
+.newGame {
+  height: 15vmin;
+  width: 25vmin;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  font-style: normal;
+  border-radius: 0.4rem;
+}
+.newGame:hover {
+  background-color: rgb(110, 110, 98);
+}
+
+.result {
+  font-size: 50px;
+  font-weight: 600;
+  position: absolute;
+  top: 410px;
+}
