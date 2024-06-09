@@ -71,8 +71,9 @@ const reset = () => {
 
     box.innerText = "";
   }
-  currentPlayer = "X";
-  arr.fill(null);
+  location.reload();
+  // currentPlayer = "X";
+  // arr.fill(null);
   // console.log("New Game");
 };
 
